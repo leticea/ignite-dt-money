@@ -16,7 +16,9 @@ export function Header() {
           <Dialog.Portal>
             <Dialog.Overlay />
             <Dialog.Content>
-              
+              <Dialog.Title>Nova transação</Dialog.Title>
+
+              <Dialog.Close />
             </Dialog.Content>
           </Dialog.Portal>
         </Dialog.Root>
