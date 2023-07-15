@@ -41,10 +41,8 @@ export function NewTransactionModal() {
   return (
     <Dialog.Portal>
       <Overlay />
-
       <Content>
         <Dialog.Title>Nova transação</Dialog.Title>
-
         <CloseButton>
           <X size={24} />
         </CloseButton>
