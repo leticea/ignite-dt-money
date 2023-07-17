@@ -71,6 +71,7 @@ export function NewTransactionModal() {
             control={control}
             name="type"
             render={({ field }) => {
+              console.log(field)
               return (
                 <TransactionType
                   onValueChange={(value: NewTransactionFormInputs["type"]) =>
