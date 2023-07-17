@@ -10,6 +10,7 @@ import {
 } from "./styles";
 import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { api } from "../../lib/axios";
 
 const newTransactionFormSchema = z.object({
   description: z.string(),
@@ -34,8 +35,14 @@ export function NewTransactionModal() {
   });
 
   async function handleCreateNewTransaction(data: NewTransactionFormInputs) {
-    await new Promise((resolve) => setTimeout(resolve, 2000));
-    console.log(data);
+    const { description, price, category, type } = data;
+
+    await api.post("transactions", {
+      description,
+      price,
+      category,
+      type,
+    });
   }
 
   return (
@@ -71,7 +78,7 @@ export function NewTransactionModal() {
             control={control}
             name="type"
             render={({ field }) => {
-              console.log(field)
+              console.log(field);
               return (
                 <TransactionType
                   onValueChange={(value: NewTransactionFormInputs["type"]) =>
