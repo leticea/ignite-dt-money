@@ -23,6 +23,14 @@
       "category": "Casa",
       "price": 1200,
       "createdAt": "2023-07-11T14:22:10.967Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-07-17T20:38:21.096Z",
+      "id": 4
     }
   ]
 }
