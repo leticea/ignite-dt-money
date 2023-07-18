@@ -50,6 +50,7 @@ Projeto de um controle financeiro onde conseguimos cadastrar as entradas e as sa
 - Clone o projeto.
 - Entre na pasta do projeto e rode 'npm install' (use 'yarn install' se for essa a sua configuração).
 - npm run dev para rodar o projeto na porta indicada.
+- npx json-server server.json para rodar o arquivo do banco de dados.
 
 ## 🤔 Como contribuir
 
