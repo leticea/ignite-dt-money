@@ -9,6 +9,13 @@ export const SummaryContainer = styled.section`
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: -5rem;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    font-size: 1.3rem;
+  }
 `;
 
 interface SummaryCardProps {
@@ -31,6 +38,15 @@ export const SummaryCard = styled.div<SummaryCardProps>`
     display: block;
     margin-top: 1rem;
     font-size: 2rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+
+    strong {
+      font-size: 1.3rem;
+    }
   }
 
   ${(props) =>
