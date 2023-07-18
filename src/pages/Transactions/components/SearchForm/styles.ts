@@ -42,5 +42,11 @@ export const SearchFormContainer = styled.form`
       color: ${(props) => props.theme.white};
       transition: background-color 0.2s, color 0.2s, border-color 0.2s;
     }
+
+    @media screen and (max-width: 768px) {
+      margin-left: -0.6rem;
+      width: 105px;
+      gap: 0.25rem;
+    }
   }
 `;
