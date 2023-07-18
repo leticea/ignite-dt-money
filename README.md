@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Projeto de um controle financeiro onde temos as entradas e as saídas junto com o cálculo do valor total. Conseguimos cadastrar novas entradas e saídas e fazer buscas.
+Projeto de um controle financeiro onde conseguimos cadastrar as entradas e as saídas, temos o cálculo do valor total e podemos buscar transações.
 
 - Módulo ReactJS do Ignite na plataforma da [Rocketseat](https://www.rocketseat.com.br/).
 
