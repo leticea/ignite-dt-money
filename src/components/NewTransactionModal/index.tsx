@@ -64,7 +64,6 @@ export function NewTransactionModal() {
         <CloseButton>
           <X size={24} />
         </CloseButton>
-
         <form onSubmit={handleSubmit(handleCreateNewTransaction)}>
           <input
             type="text"
@@ -84,7 +83,6 @@ export function NewTransactionModal() {
             required
             {...register("category")}
           />
-
           <Controller
             control={control}
             name="type"
@@ -109,7 +107,6 @@ export function NewTransactionModal() {
               );
             }}
           />
-
           <button type="submit" disabled={isSubmitting}>
             Cadastrar
           </button>

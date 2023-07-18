@@ -42,7 +42,7 @@ Projeto de um controle financeiro onde temos as entradas e as saídas junto com 
 </p>
 
 <p align="center">
-  <img alt="" src=".github/image3.png">
+  <img height="1455" width="350" alt="" src=".github/image3.png">
 </p>
 
 ## ⚙️ Como Rodar

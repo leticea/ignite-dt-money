@@ -26,7 +26,7 @@ export function useSummary() {
         total: 0,
       }
     );
-  }, [transactions])
+  }, [transactions]);
 
   return summary;
 }

@@ -39,7 +39,6 @@ export function SearchForm() {
         placeholder="Busque por transações"
         {...register("query")}
       />
-
       <button type="submit" disabled={isSubmitting}>
         <MagnifyingGlass size={20} />
         Buscar
